@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: white;
+    background-color: black;
+    padding: 100px;
+}
+.contents{
+    width: 400px;
+}
+.contents img{
+    width: 100%;
+}

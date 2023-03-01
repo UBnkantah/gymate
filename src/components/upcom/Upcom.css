@@ -1,0 +1,14 @@
+.upcom{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+.upcom div{
+    width: 300px;
+    background-color: white;
+}
+
+.upcom div img{
+    width: 100%;
+}

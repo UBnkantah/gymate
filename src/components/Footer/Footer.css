@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 100px;
+}
+
+.footer div{
+    width: 300px;
+}
+.footer div img{
+    width: 50px;
+    height: 50px;
+}
+.footer div .soc-icons{
+    display: flex;
+    gap: 1em;
+}
+.footer div .soc-icons div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
