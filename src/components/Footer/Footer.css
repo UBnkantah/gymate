@@ -2,11 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: start;
-    padding: 50px 100px;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 1em;
+    background-color: black;
+    color: white;
 }
 
 .footer div{
-    width: 300px;
+    width: 250px;
 }
 .footer div img{
     width: 50px;

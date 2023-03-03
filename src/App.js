@@ -5,6 +5,7 @@ import Contact from './pages/Contact'
 import Class from './pages/Class'
 import Shop from "./pages/Shop"
 import Join from './pages/Join'
+import Sublog from './pages/Sublog'
 import Error from './pages/Error'
 import SharedLayout from './pages/SharedLayout'
 
@@ -19,6 +20,7 @@ const App = () => {
           <Route path='/shop' element={<Shop />} />
           <Route path='/contact' element={<Contact />} />
           <Route path="/join" element={<Join />} />
+          <Route path='/categories/:sublog' element={<Sublog />} />
           <Route path='*' element={<Error />} />
         </Route>
       </Routes>

@@ -1,8 +1,9 @@
-import React from 'react'
-
+import React from "react"
 const Class = () => {
   return (
-    <div>Class</div>
+    <div >
+      <h1>This is the class page</h1>
+    </div>
   )
 }
 

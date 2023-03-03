@@ -1,9 +1,14 @@
 .why{
     display: flex;
-    justify-content: center;
-    align-items: start;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+    padding: 50px;
     
 }
 .why div{
     max-width: 400px;
+}
+.why .img img{
+    width: 100%;
 }

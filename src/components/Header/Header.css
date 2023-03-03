@@ -1,14 +1,21 @@
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    flex-wrap: wrap;
+    align-items: center;
     color: white;
     background-color: black;
     padding: 100px;
+    gap: 3em;
 }
 .contents{
     width: 400px;
 }
 .contents img{
     width: 100%;
+}
+@media screen and (max-width: 767px){
+    .header{
+        padding: 50px;
+    }
 }

@@ -1,13 +1,14 @@
 import React from 'react'
 import moa from "../Images/moa.png"
 import mob from "../Images/mob.png"
+import why from "../Images/chose-img.jpg"
 import "./Why.css"
 
 const Why = () => {
   return (
     <div className='why'>
-        <div>
-            <img src="" alt="" />
+        <div className='img'>
+            <img src={why} alt="" />
         </div>
         <div>
             <h3>WHY CHOOSE US</h3>

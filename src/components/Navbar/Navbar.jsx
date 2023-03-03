@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import { NavLink } from "react-router-dom"
+import { BrowserRouter, Route, Link } from "react-router-dom"
 import {FaBars, FaTimes} from "react-icons/fa"
 import Logo from "../Images/gym-logo.png"
 import "./Navbar.css"
@@ -14,25 +14,25 @@ const Navbar = () => {
   return (
     <div className="navbar">
         <div className="log">
-            <NavLink to="/"><img src={Logo} alt="" /></NavLink>
+            <Link to="/"><img src={Logo} alt="" /></Link>
         </div>
         
         <nav>
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/class">Class</NavLink>
-            <NavLink to="/shop">Shop</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
-            <NavLink to="/contact">Pricing</NavLink>
+            <Link to="/about">About</Link>
+            <Link to="/class">Class</Link>
+            <Link to="/shop">Shop</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Pricing</Link>
             <button className="get_btn">
-                <NavLink to="/join">
+                <Link to="/join">
                     Join Our Class Now
-                </NavLink>
+                </Link>
             </button>
             <button className="navbar_btn navbar_close" onClick={showNav}>
                 <FaTimes />
             </button>
         </nav>
-        <button className="navbar_btn">
+        <button className="navbar_btn" onClick={showNav}>
             <FaBars />
         </button>
     </div>
