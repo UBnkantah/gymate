@@ -1,11 +1,15 @@
 import Footer from "../components/Footer/Footer"
+import HeaderA from "../components/HeaderA/HeaderA"
+import Haboutt from "../components/Haboutt/Haboutt"
+import HiMi from "../components/HiMi/HiMi"
 
 const About = () => {
   return (
     <div>
-      <h1>
-        <Footer />
-      </h1>
+      <HeaderA />
+      <Haboutt />
+      <HiMi />
+      <Footer />
     </div>
   )
 }

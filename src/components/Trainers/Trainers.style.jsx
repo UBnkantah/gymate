@@ -8,13 +8,14 @@ export const trainerstyle = {
     // },
     dive: {
         display: "flex",
-        justifyContent: "center",
+        justifyContent: "space-between",
         alignItems: "center",        
         flexWrap: "wrap",
         gap: "3em"
     },
     item: {
         width: "300px",
+        maxHeight: "350px",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

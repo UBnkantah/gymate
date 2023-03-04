@@ -6,7 +6,7 @@ import "./Header.css"
 const Header = () => {
   return (
     <div className='header'>
-        <div className='contents'>
+        <div className='contents '>
             <p>FIND YOUR ENERGY</p>
             <h2 style={AppStyle.h2}>MAKE YOUR BODY HEALTHY & FIT</h2>
             <p>
@@ -16,7 +16,7 @@ const Header = () => {
                 OUR CLASSES
             </button>
         </div>
-        <div className='contents'>
+        <div className='contents imgd'>
             <img src={HImg} alt="" />
         </div>
         

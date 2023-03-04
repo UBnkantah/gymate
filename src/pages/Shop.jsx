@@ -2,7 +2,9 @@ import React from 'react'
 
 const Shop = () => {
   return (
-    <div>Shop</div>
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium saepe aliquam voluptate, temporibus nulla aliquid ex sapiente iusto ut error.</p>
+    </div>
   )
 }
 
