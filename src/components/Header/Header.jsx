@@ -1,4 +1,4 @@
-import React from 'react'
+import {Link} from "react-router-dom"
 import { AppStyle } from '../../App.style'
 import HImg from "../Images/header-img.jpg"
 import "./Header.css"
@@ -13,10 +13,12 @@ const Header = () => {
                 Gymen an unknown printer took a gallery of type and scrambled. it has survived unknown printercenturies.
             </p>
             <button style={AppStyle.mainButton}>
-                OUR CLASSES
+                <Link to="/class">
+                    OUR CLASSES
+                </Link>
             </button>
         </div>
-        <div className='contents imgd'>
+        <div className='contents'>
             <img src={HImg} alt="" />
         </div>
         

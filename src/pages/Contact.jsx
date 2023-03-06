@@ -1,8 +1,12 @@
-import React from 'react'
+import HeaderCo from "../components/HeaderA/HeaderCo"
+import Footer from "../components/Footer/Footer"
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <HeaderCo />
+      <Footer />
+    </div>
   )
 }
 

@@ -6,7 +6,7 @@ export const HabouttStyle = {
         padding: "50px 100px",
         gap: "5em",
         textAlign: "start",
-        // backgroundColor: "black",
+        backgroundColor: "black",
         color: "white",
         flexWrap: "wrap"
 

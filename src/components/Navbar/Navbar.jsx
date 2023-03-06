@@ -20,9 +20,9 @@ const Navbar = () => {
         <nav>
             <Link to="/about">About</Link>
             <Link to="/class">Class</Link>
-            <Link to="/shop">Shop</Link>
+            <Link to="/gallery">Gallery</Link>
             <Link to="/contact">Contact</Link>
-            <Link to="/contact">Pricing</Link>
+            <Link to="/pricing">Pricing</Link>
             <button className="get_btn">
                 <Link to="/join">
                     Join Our Class Now

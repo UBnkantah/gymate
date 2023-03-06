@@ -1,0 +1,22 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+
+}
+.container{
+    width: 250px;
+    height: 300px;
+
+}
+.first{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.first img{
+    width: inherit;
+    height: inherit;
+}

@@ -4,6 +4,7 @@ import Upcom from '../components/upcom/Upcom'
 import Blog from '../components/Blog/Blog'
 import Trainers from "../components/Trainers/Trainers"
 import Why from '../components/Why/Why'
+import Shop from '../components/Shop/Shop'
 import Footer from '../components/Footer/Footer'
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Upcom />
       <Why />
       <Blog />
+      <Shop />
       <Trainers />
       <Footer />
     </div>
