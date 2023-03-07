@@ -242,3 +242,21 @@ export const gallTwo = [
         img: require("../Images/gall-bobu.png")
     }
 ]
+
+export const pricingData = [
+    {
+        id: 1,
+        unit: 39,
+        stage: "Beginner"
+    },
+    {
+        id: 2,
+        unit: 59,
+        stage: "Basic"
+    },
+    {
+        id: 3,
+        unit: 69,
+        stage: "Advance"
+    }
+]

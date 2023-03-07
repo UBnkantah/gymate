@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link to="/contact">Contact</Link>
             <Link to="/pricing">Pricing</Link>
             <button className="get_btn">
-                <Link to="/join">
+                <Link to="/contact">
                     Join Our Class Now
                 </Link>
             </button>

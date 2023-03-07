@@ -1,0 +1,43 @@
+.form-container{
+    background-color: #f8f8f8;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    margin: 20px 0;
+}
+.form-container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+.form-container input{
+    width: 100%;
+    padding: 0.2rem;
+}
+
+.form-container select{
+    width: 100%;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+.form-container textarea{
+    width: 100%;
+}
+
+.form-container .check{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-container .form-submit{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
