@@ -1,5 +1,5 @@
 import React from 'react'
-import habimg from "../Images/habout-img.png"
+import habimg from "../Images/about-imgg.png"
 import { AppStyle } from '../../App.style'
 import moa from "../Images/moa.png"
 import mob from "../Images/mob.png"
@@ -10,30 +10,26 @@ const Habout = () => {
     <div className='habout'>
         <div className='img'>
             <img src={habimg} alt="" />
+            <div className='motiv'>
+                <p>We can help you to overcome the fears and obstacles in your life</p>
+            </div>
         </div>
         <div className='content'>
-            <p>ABOUT GYMAT</p>
+            <p>LET'S INTRODUCE</p>
             <p style={AppStyle.h2}>
-                We Can Give A Shape Of Your Body Here
+                Take You Health And Fitness To New Level of Heights
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, impedit iusto! Facilis consequuntur commodi expedita amet sit, quam rem nobis alias repudiandae aliquid, accusamus minus vel sunt et fugit ad maiores omnis vero voluptatem reiciendis. Odit amet quas voluptate dolore.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, impedit iusto! Facilis consequuntur commodi expedita amet sit, quam rem nobis alias repudiandae aliquid, accusamus minus vel sunt et fugit.
             </p>
-            <div className='mid'>
-                <img src={moa} alt="" />
-                <div className='item'>
-                    <ul>
-                        <li>Modern Equipment</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dolorum?</li>
-                    </ul>
-                </div>
-            </div>
-            <div className='mid'>
-                <img src={mob} alt="" />
-                <ul>
-                    <li>Modern Equipment</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dolorum?</li>
-                </ul>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam vitae tempore, accusantium saepe porro itaque animi dolorem ducimus ea repudiandae at magnam, deleniti doloremque, ullam voluptate ad. Fugit eius voluptatem, quidem voluptatibus deserunt a dolor?
+            </p>
+            <div>
+                <p>Johon Suanto</p>
+                <p>
+                    Mr. Johon Smith
+                </p>
             </div>
         </div>
         

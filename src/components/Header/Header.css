@@ -1,18 +1,29 @@
 .header{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    color: white;
+    background-image: url("../Images/hero-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: black;
-    padding: 100px;
-    gap: 3em;
-    overflow: hidden;
-    /* height: 100vh; */
+    position: relative;
+    width: 100%;
+    height: 85vh;
 }
 .contents{
     width: 400px;
-    
+    position: absolute;
+    color: white;
+    left: 3em;
+    bottom: 7em;
+}
+.bmi-container{
+    clip-path: polygon(0% 0%, 100% 0, 84% 61%, 74% 100%, 0% 100%);
+    background-color: black;
+    color: white;
+    width: 75%;
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    height: 13em;
 }
 /* .imgd {
     animation: key 10s infinite;

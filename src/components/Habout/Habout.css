@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 5em;
-    padding: 20px 40px;
+    margin-top: 250px;
 }
 .content {
     max-width: 500px;

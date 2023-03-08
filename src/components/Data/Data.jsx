@@ -260,3 +260,103 @@ export const pricingData = [
         stage: "Advance"
     }
 ]
+
+export const OFC = [
+    {
+        id: 1,
+        head: "Fitness",
+        date: "Monday: 9:00 am"
+    },
+    {
+        id: 2,
+        head: "Yoga",
+        date: "Tuesday: 11:00 am"
+    },
+    {
+        id: 3,
+        head: "Body Building",
+        date: "Monday: 10:00 am"
+    },
+    {
+        id: 4,
+        head: "Boxing",
+        date: "Thursday: 1:00pm"
+    },
+    {
+        id: 5,
+        head: "Running",
+        date: "Monday: 4:00 pm"
+    },
+    {
+        id: 6,
+        head: "Crossfit",
+        date: "Tuesday: 6:00pm"
+    }
+]
+
+export const routine = [
+    {
+        id: 1,
+        name: "PROGRESSION",
+    },
+    {
+        id: 2,
+        name: "WORKOUT"
+    },
+    {
+        id: 3,
+        name: "NUTRITION"
+    },
+    {
+        id: 4,
+        name: "DAILY CHART"
+    }
+]
+
+export const coachesEx = [
+    {
+        id: 1,
+        name: "Junifor Jonas",
+        title: "Fitness Trainer",
+        img: require("../Images/gall-bobuf.png")
+    },
+    {
+        id: 2,
+        name: "Joan Thompson",
+        title: "Boxing Trainer",
+        img: require("../Images/class-bbg.png")
+    },
+    {
+        id: 3,
+        name: "Monica Jand",
+        title: "Boxing Trainer",
+        img: require("../Images/class-yoga.jpg")
+    },
+    {
+        id: 4,
+        name: "Kody Roded",
+        title: "Body Builder",
+        img: require("../Images/class-mart.png")
+    }
+]
+
+export const plans = [
+    {
+        id: 1,
+        title: "Beginners",
+        amount: "$59",
+        time: 3
+    },
+    {
+        id: 2,
+        title: "Professionals",
+        amount: "$99",
+        time: 6
+    },
+    {
+        id: 3,
+        title: "Advances",
+        amount: "$120",
+        time: 9
+    }
+]
