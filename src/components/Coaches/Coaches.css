@@ -1,0 +1,30 @@
+.coach-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+
+}
+.coach-header{
+    max-width: 450px;
+}
+.coach-img{
+    width: 280px;
+    height: 450px;
+    position: relative;
+}
+.coach-img img{
+    width: 100%;
+    height: 100%;
+}
+.coach-img .coach-tit{
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    /* padding: 0px; */
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    padding-left: 20px;
+}

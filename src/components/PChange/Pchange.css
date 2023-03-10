@@ -1,0 +1,24 @@
+.pchange{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    background-image: url("../Images/about-his.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pchange-header{
+    width: 400px;
+    color: white;
+}
+
+.pchange .video-cont{
+    width: 400px;
+}
+
+.pchange .video-cont img{
+    width: 100%;
+}

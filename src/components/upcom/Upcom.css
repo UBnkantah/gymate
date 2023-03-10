@@ -1,7 +1,7 @@
 .upcom{
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
     gap: 2em;
     background-color: #e4f1f6;
@@ -12,17 +12,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    border-radius: 20px;
+    gap: 2em;
 
 }
 .upcom .class-ses{
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     background-color: white;
+    position: relative;
+    border-radius: 10px;
+}
+.upcom-header{
+    max-width: 500px;
+    text-align: center;
 }
 .class-ses .img{
     width: 100%;
-    height: 750%;
 }
 .class-ses .img img{
     width: 100%;
+    height: 270px;
+}
+.title-cla{
+    text-align: center;
+    height: 110px;
+}
+.cla-time{
+    position: absolute;
+    width: 80%;
+    height: 50px;
+    background-color: red;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    bottom: 0.05px;
+    left: 25px;
+}
+.title-cla .spo-icon{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90px;
+    left: 100px;
 }

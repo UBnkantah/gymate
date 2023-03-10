@@ -1,52 +1,24 @@
 import React from 'react'
-import moa from "../Images/moa.png"
-import mob from "../Images/mob.png"
-import why from "../Images/chose-img.jpg"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {solid, regular, icon, brands, light} from "@fortawesome/fontawesome-svg-core/import.macro"
+import {faEnvelope, faMattressPillow, faToiletPaper, faCalendarDays, faToolbox } from "@fortawesome/free-solid-svg-icons"
+import { routine } from '../Data/Data'
 import "./Why.css"
 
 const Why = () => {
   return (
     <div className='why'>
-        <div className='img'>
-            <img src={why} alt="" />
+        {routine.map((rou) => {
+            return (
+            <div className='det' key={rou.id}>
+                {rou.ics}
+                <h2>{rou.name}</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat dolor deserunt nulla, alias beatae voluptatibus.</p>
         </div>
-        <div>
-            <h3>WHY CHOOSE US</h3>
-            <h2>
-                Why Choose Us to Join Our Classes
-            </h2>
-            <p>
-                Gymat an unknown printer took galie type anscraey aretea bled make a type
-                specimen bookayurived not onlyive centuries Gymat an unknown printer took
-                galle type anscraey.
-            </p>
-            <div>
-                <div>
-                    <img src={moa} alt="" />
-                    <h2>Modern Equipment</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, vero.
-                    </p>
-                </div>
-                <div>
-                    <img src={mob} alt="" />
-                    <h2>Weight Balance</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, dolore!
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <h1>10+</h1>
-                    <p>Expert Trainer</p>
-                </div>
-                <div>
-                    <h1>500+</h1>
-                    <p>Trainer Students</p>
-                </div>
-            </div>
-        </div>
+            )
+        })}
+        
+        
     </div>
 
     

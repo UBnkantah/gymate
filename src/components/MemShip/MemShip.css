@@ -1,0 +1,15 @@
+.memship-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-image: url("../Images/header-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.memship-card{
+    width: 300px;
+    padding: 20px;
+}

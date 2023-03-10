@@ -1,3 +1,50 @@
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {solid, regular, icon, brands, light} from "@fortawesome/fontawesome-svg-core/import.macro"
+import {faEnvelope, faMattressPillow, faToiletPaper, faCalendarDays, faToolbox, faDumbbell, faPersonDress, faChildReaching, faThumbsUp, faTimesCircle } from "@fortawesome/free-solid-svg-icons"
+
+export const ico = [
+    {
+        id: 1,
+        icon: <FontAwesomeIcon icon={faChildReaching} />
+    },
+    {
+        id: 2,
+        icon: <FontAwesomeIcon icon={faMattressPillow} />
+    },
+    {
+        id: 3,
+        icon: <FontAwesomeIcon icon={faToiletPaper} />
+    },
+    {
+        id: 4,
+        icon: <FontAwesomeIcon icon={faCalendarDays} />
+    },
+    {
+        id: 5,
+        icon: <FontAwesomeIcon icon={faToolbox} />
+    },
+    {
+        id: 6,
+        icon: <FontAwesomeIcon icon={faDumbbell} />
+    },
+    {
+        id: 7,
+        icon: <FontAwesomeIcon icon={faPersonDress} />
+    },
+    {
+        id: 8,
+        icon: <FontAwesomeIcon icon={faThumbsUp} />
+    }
+]
+{/* <FontAwesomeIcon icon="fa-solid fa-circle-info" beatFade />
+<FontAwesomeIcon icon="fa-solid fa-basketball" bounce />
+<FontAwesomeIcon icon="fa-solid fa-triangle-exclamation" fade />
+<FontAwesomeIcon icon="fa-solid fa-compact-disc" flip />
+<FontAwesomeIcon icon="fa-solid fa-bell" shake />
+<FontAwesomeIcon icon="fa-solid fa-cog" spin />
+<FontAwesomeIcon icon="fa-solid fa-compass" spin spinReverse />
+<FontAwesomeIcon icon="fa-solid fa-spinner" spinPulse /> */}
+
 export const ClasOne = [
     {
         id: 1,
@@ -265,32 +312,38 @@ export const OFC = [
     {
         id: 1,
         head: "Fitness",
-        date: "Monday: 9:00 am"
+        date: "Monday: 9:00 am",
+        img: require("../Images/cla-ft.png")
     },
     {
         id: 2,
         head: "Yoga",
-        date: "Tuesday: 11:00 am"
+        date: "Tuesday: 11:00 am",
+        img: require("../Images/cla-yog.png")
     },
     {
         id: 3,
         head: "Body Building",
-        date: "Monday: 10:00 am"
+        date: "Monday: 10:00 am",
+        img: require("../Images/class-bbg.png")
     },
     {
         id: 4,
         head: "Boxing",
-        date: "Thursday: 1:00pm"
+        date: "Thursday: 1:00pm",
+        img: require("../Images/class-boxg.png")
     },
     {
         id: 5,
         head: "Running",
-        date: "Monday: 4:00 pm"
+        date: "Monday: 4:00 pm",
+        img: require("../Images/class-run.png")
     },
     {
         id: 6,
         head: "Crossfit",
-        date: "Tuesday: 6:00pm"
+        date: "Tuesday: 6:00pm",
+        img: require("../Images/class-crosfit.png")
     }
 ]
 
@@ -298,18 +351,22 @@ export const routine = [
     {
         id: 1,
         name: "PROGRESSION",
+        ics: <FontAwesomeIcon icon={faTimesCircle} />
     },
     {
         id: 2,
-        name: "WORKOUT"
+        name: "WORKOUT",
+        ics: <FontAwesomeIcon icon={faDumbbell} />
     },
     {
         id: 3,
-        name: "NUTRITION"
+        name: "NUTRITION",
+        ics: <FontAwesomeIcon icon={faToolbox} />
     },
     {
         id: 4,
-        name: "DAILY CHART"
+        name: "DAILY CHART",
+        ics: <FontAwesomeIcon icon={faCalendarDays} />
     }
 ]
 

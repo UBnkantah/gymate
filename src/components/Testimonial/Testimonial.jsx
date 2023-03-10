@@ -1,25 +1,28 @@
-import React from 'react'
+import tmnImg from "../Images/text-img.png"
+import {FaLongArrowAltRight, FaLongArrowAltLeft} from "react-icons/fa"
+import "./Testimonial.css"
 
 const Testimonial = () => {
   return (
-    <div>
-        <div>
-            <div>
-                <h3>TESTIMONIALS</h3>
-                <h2>Some Reviews From Our Trusted Clients</h2>
-            </div>
+    <div className="testim-container">
+        <div className="test-imgc">
+            <img src={tmnImg} alt="" />
+        </div>
+        <div className="test-deta">
+            <h2>What's Client say</h2>
             <div>
                 <p>
-                    Gymatan unknown printer took ile type anscraey retea bled maketype 
-                    Specimen bookayurvived ot onlyive centuries. Gymatan unknown printer took ile type anscraey.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi minima ab non dolore, quidem necessitatibus iusto eos? Pariatur dolor sit architecto! Architecto quia hic nostrum numquam soluta obcaecati quis beatae.
                 </p>
             </div>
-        </div>
-        <div>
             <div>
-                <img src="" alt="" />
+                <button>
+                    <FaLongArrowAltLeft />
+                </button>
+                <button>
+                    <FaLongArrowAltRight />
+                </button>
             </div>
-            
         </div>
     </div>
   )
