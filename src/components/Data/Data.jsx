@@ -1,40 +1,6 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import { faMattressPillow, faToiletPaper, faCalendarDays, faToolbox, faDumbbell, faPersonDress, faChildReaching, faThumbsUp, faTimesCircle } from "@fortawesome/free-solid-svg-icons"
+import { faShoePrints, faMattressPillow, faToiletPaper, faCalendarDays, faToolbox, faDumbbell, faPersonDress, faChildReaching, faThumbsUp, faTimesCircle } from "@fortawesome/free-solid-svg-icons"
 
-export const ico = [
-    {
-        id: 1,
-        icon: <FontAwesomeIcon icon={faChildReaching} />
-    },
-    {
-        id: 2,
-        icon: <FontAwesomeIcon icon={faMattressPillow} />
-    },
-    {
-        id: 3,
-        icon: <FontAwesomeIcon icon={faToiletPaper} />
-    },
-    {
-        id: 4,
-        icon: <FontAwesomeIcon icon={faCalendarDays} />
-    },
-    {
-        id: 5,
-        icon: <FontAwesomeIcon icon={faToolbox} />
-    },
-    {
-        id: 6,
-        icon: <FontAwesomeIcon icon={faDumbbell} />
-    },
-    {
-        id: 7,
-        icon: <FontAwesomeIcon icon={faPersonDress} />
-    },
-    {
-        id: 8,
-        icon: <FontAwesomeIcon icon={faThumbsUp} />
-    }
-]
 export const ClasOne = [
     {
         id: 1,
@@ -275,37 +241,43 @@ export const OFC = [
         id: 1,
         head: "Fitness",
         date: "Monday: 9:00 am",
-        img: require("../Images/cla-ft.png")
+        img: require("../Images/cla-ft.png"),
+        icon: <FontAwesomeIcon icon={faPersonDress} size={"2x"} color={"white"} />
     },
     {
         id: 2,
         head: "Yoga",
         date: "Tuesday: 11:00 am",
-        img: require("../Images/cla-yog.png")
+        img: require("../Images/cla-yog.png"),
+        icon: <FontAwesomeIcon icon={faMattressPillow} size={"2x"} color={"white"} />
     },
     {
         id: 3,
         head: "Body Building",
         date: "Monday: 10:00 am",
-        img: require("../Images/class-bbg.png")
+        img: require("../Images/class-bbg.png"),
+        icon: <FontAwesomeIcon icon={faChildReaching} size={"2x"} color={"white"} />
     },
     {
         id: 4,
         head: "Boxing",
         date: "Thursday: 1:00pm",
-        img: require("../Images/class-boxg.png")
+        img: require("../Images/class-boxg.png"),
+        icon: <FontAwesomeIcon icon={faThumbsUp} size={"2x"} color={"white"} />
     },
     {
         id: 5,
         head: "Running",
         date: "Monday: 4:00 pm",
-        img: require("../Images/class-run.png")
+        img: require("../Images/class-run.png"),
+        icon: <FontAwesomeIcon icon={faShoePrints} size={"2x"} color={"white"} />
     },
     {
         id: 6,
         head: "Crossfit",
         date: "Tuesday: 6:00pm",
-        img: require("../Images/class-crosfit.png")
+        img: require("../Images/class-crosfit.png"),
+        icon: <FontAwesomeIcon icon={faDumbbell} size={"2x"} color={"white"} />
     }
 ]
 
@@ -380,5 +352,20 @@ export const plans = [
         amount: 120,
         time: 9,
         img: require("../Images/cla-yog.png")
+    }
+]
+
+export const blogg = [
+    {
+        id: 1,
+        top: "Everything You Need To Know About Fitness"
+    },
+    {
+        id: 2,
+        top: "Keep Your Body It's Best"
+    },
+    {
+        id: 3,
+        top: "Get off your butt and exercise, orders your doc"
     }
 ]

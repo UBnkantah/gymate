@@ -6,6 +6,7 @@
     align-items: center;
     height: 170px;
     position: relative;
+    overflow: hidden;
 }
 .scrol-flex{
     display: flex;
@@ -14,7 +15,7 @@
     width: 80%;
     position: absolute;
     bottom: 50px;
-    overflow-x: hidden;
+    overflow: hidden;
     gap: 3.3em;
 }
 .scrol-flex .img-cont{

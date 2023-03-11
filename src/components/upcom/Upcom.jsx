@@ -1,10 +1,5 @@
 // eslint-disable no-use-before-define
 import React from 'react'
-import {FaDumbbell} from "react-icons/fa"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {solid, regular, icon, brands, light} from "@fortawesome/fontawesome-svg-core/import.macro"
-import {faEnvelope, faMattressPillow, faToiletPaper, faCalendarDays, faToolbox } from "@fortawesome/free-solid-svg-icons"
-import {ico} from "../Data/Data"
 import "./Upcom.css"
 import  {OFC} from "../Data/Data"
 import { Link } from 'react-router-dom'
@@ -18,19 +13,6 @@ const Upcom = () => {
                 Gymat an unknown printer took galie type anscraey aretea bled make a type specimen bookay survived not onlyive centuries 
             </p>
         </div>
-        <div>
-            <div>
-                {ico.map((ic) => {
-                    return(
-                        <div>
-                            {ic.icon}
-                        </div>
-                    )
-                })}
-                
-            </div>
-
-        </div>
         <div className='container-sess'>
             {OFC.map((body) => {
                 return(
@@ -39,7 +21,7 @@ const Upcom = () => {
                         <h2>{body.head}</h2>
                         <p>The Best Body fitness in Town</p>
                         <div className="spo-icon">
-                            <FaDumbbell size={40}/>
+                            {body.icon}
                         </div>
                     </div>
                     <div className='img'>

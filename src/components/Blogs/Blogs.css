@@ -1,0 +1,22 @@
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: rgb(243, 233, 233);
+    gap: 2em;
+
+}
+.blog-flex{
+    max-width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(5px, 10px, 20px, black, inset);
+    border-radius: 30px;
+}

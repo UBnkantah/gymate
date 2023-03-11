@@ -5,6 +5,7 @@ import Pchange from '../components/PChange/Pchange'
 import Coaches from '../components/Coaches/Coaches'
 import Testimonial from '../components/Testimonial/Testimonial'
 import MemShip from '../components/MemShip/MemShip'
+import Blogs from '../components/Blogs/Blogs'
 import ScrolF from '../components/ScrolF/ScrolF'
 import Why from '../components/Why/Why'
 import Footer from '../components/Footer/Footer'
@@ -20,6 +21,7 @@ const Home = () => {
       <Coaches />
       <Testimonial />
       <MemShip /> 
+      <Blogs />
       <ScrolF />
       <Footer />
     </div>

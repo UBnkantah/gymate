@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3em;
+    flex-wrap: wrap;
+    gap: 1em;
     padding: 50px;
     
 }
 .why .det{
-    width: 300px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;

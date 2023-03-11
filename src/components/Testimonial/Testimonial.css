@@ -1,5 +1,20 @@
 .testim-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
 }
+.test-imgc{
+    max-width: 400px;
+    height: 400px;
+}
+.test-imgc img{
+    width: 100%;
+    height: 100%;
+}
+.test-deta{
+    max-width: 400px;
+    height: 400px;
+}
+
