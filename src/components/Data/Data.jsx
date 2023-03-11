@@ -1,6 +1,5 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {solid, regular, icon, brands, light} from "@fortawesome/fontawesome-svg-core/import.macro"
-import {faEnvelope, faMattressPillow, faToiletPaper, faCalendarDays, faToolbox, faDumbbell, faPersonDress, faChildReaching, faThumbsUp, faTimesCircle } from "@fortawesome/free-solid-svg-icons"
+import { faMattressPillow, faToiletPaper, faCalendarDays, faToolbox, faDumbbell, faPersonDress, faChildReaching, faThumbsUp, faTimesCircle } from "@fortawesome/free-solid-svg-icons"
 
 export const ico = [
     {
@@ -36,15 +35,6 @@ export const ico = [
         icon: <FontAwesomeIcon icon={faThumbsUp} />
     }
 ]
-{/* <FontAwesomeIcon icon="fa-solid fa-circle-info" beatFade />
-<FontAwesomeIcon icon="fa-solid fa-basketball" bounce />
-<FontAwesomeIcon icon="fa-solid fa-triangle-exclamation" fade />
-<FontAwesomeIcon icon="fa-solid fa-compact-disc" flip />
-<FontAwesomeIcon icon="fa-solid fa-bell" shake />
-<FontAwesomeIcon icon="fa-solid fa-cog" spin />
-<FontAwesomeIcon icon="fa-solid fa-compass" spin spinReverse />
-<FontAwesomeIcon icon="fa-solid fa-spinner" spinPulse /> */}
-
 export const ClasOne = [
     {
         id: 1,
@@ -166,45 +156,17 @@ export const traineirs = [
 export const blog = [
     {
         id: 1,
-        but: "yoga",
-        title: "Yoga For Everyone in 2022",
-        imag: require("../Images/blog-yoga.jpg")
+        title: "Everything You Need to Know About fitness",
     },
     {
         id: 2,
-        but: "crossfit",
-        title: "Getting Back Into CrossFit After Vacation",
-        imag: require("../Images/blog-crossfit.jpg")
+        title: "Keep Your Body it's Best",
     },
     {
         id: 3,
-        but: "fitness",
         title: "Meet Fitness Ambassador Grace",
-        imag: require("../Images/blog-fitness.jpg")
     }
 ]
-
-export const ShopD = [
-    {
-        id: 1,
-        name: "Gym Nike Sneaker",
-        price: "$80:00",
-        img: require("../Images/shop-sh.png")
-    },
-    {
-        id: 2,
-        name: "Gym Equipment",
-        price: "$80:00",
-        img: require("../Images/shop-pod.png")
-    },
-    {
-        id: 3,
-        name: "Working Dumble",
-        price: "$60:00",
-        img: require("../Images/shoe-ba.png")
-    }
-]
-
 export const gallOne = [
     {
         id: 1,
@@ -401,19 +363,22 @@ export const plans = [
     {
         id: 1,
         title: "Beginners",
-        amount: "$59",
-        time: 3
+        amount: 59,
+        time: 3,
+        img: require("../Images/abo-mis.jpg")
     },
     {
         id: 2,
         title: "Professionals",
-        amount: "$99",
-        time: 6
+        amount: 99,
+        time: 6,
+        img: require("../Images/cla-ft.png")
     },
     {
         id: 3,
         title: "Advances",
-        amount: "$120",
-        time: 9
+        amount: 120,
+        time: 9,
+        img: require("../Images/cla-yog.png")
     }
 ]

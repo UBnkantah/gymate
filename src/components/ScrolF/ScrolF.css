@@ -1,0 +1,38 @@
+.scrol-container{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    position: relative;
+}
+.scrol-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    position: absolute;
+    bottom: 50px;
+    overflow-x: hidden;
+    gap: 3.3em;
+}
+.scrol-flex .img-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.3em;
+}
+@keyframes scrollF {
+    0%{left: 0}
+    100%{left: -100%}
+}
+.animate{
+    width: 200%;
+    animation: scrollF 20s linear infinite;
+    top: 50%;
+    transform: translate(0, 50%);
+}
+.animate:hover{
+    animation-play-state: paused;
+}
