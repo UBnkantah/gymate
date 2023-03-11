@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link to="/"><img src={Logo} alt="" /></Link>
         </div>
         
-        <nav>
+        <nav ref={NavRef}>
             <Link to="/about">About</Link>
             <Link to="/class">Class</Link>
             <Link to="/gallery">Gallery</Link>
@@ -25,15 +25,15 @@ const Navbar = () => {
             <Link to="/pricing">Pricing</Link>
             <button className="get_btn">
                 <Link to="/contact">
-                    Join Our Class Now
+                    Sign Up
                 </Link>
             </button>
             <button className="navbar_btn navbar_close" onClick={showNav}>
-                <FaTimes />
+                <FaTimes className="navicon" />
             </button>
         </nav>
         <button className="navbar_btn" onClick={showNav}>
-            <FaBars />
+            <FaBars className="navicon"/>
         </button>
     </div>
     
