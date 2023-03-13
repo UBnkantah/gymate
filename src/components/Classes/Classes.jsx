@@ -11,30 +11,38 @@ const Classes = () => {
             {ClasOne.map((sport) => {
                 return(
                     <div className='classes-container' key={sport.id}>
-                        <img src={sport.img} className="img-cl" alt="" />
+                        <div className="img">
+                            <img src={sport.img} className="img-cl" alt="" />
+                        </div>
                         <div className='clas-items'>
-                            <h2>{sport.type}</h2>
-                            <p>
-                                <span>
-                                    <AiOutlineUser />
+                            <div className="first-item">
+                                <h2>{sport.type}</h2>
+                                <p className='subheading'>
+                                    <span className='coach'>
+                                        <AiOutlineUser />
                                         {sport.name} 
                                     </span>
-                                    <span>
+                                    <span className='coach'>
                                         <AiOutlineClockCircle />
                                         {sport.time}
                                     </span>
-                                    
+                                        
                                 </p>
-                                <p>
+                            </div>
+                            <div className='second-item'>
+                                <p className='under'>
                                     The Best Body Fitness in Town Authoritatively disseminate
                                 </p>
+                            </div>
+                                
                                 <button>
                                     <Link to="/contact">
                                         JOIN NOW
                                     </Link>
+                                    <span className="border-behind"></span>
                                 </button>
-                            </div>   
-                        </div>
+                        </div>   
+                    </div>
                 )
             })}
             
