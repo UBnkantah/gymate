@@ -46,4 +46,32 @@
 .clas-items button a{
     text-decoration: none;
 }
-
+.but-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.but-flex{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.but-flex button{
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.but-flex button:hover{
+    background-color: red;
+}
+.but-flex button a{
+    text-decoration: none;
+    color: red;
+}
+.but-flex button a:hover{
+    color: white;
+}

@@ -1,4 +1,3 @@
-import { AppStyle } from "../../App.style" 
 import VideoImg from "../Images/video.png"
 import "./Pchange.css"
 
@@ -11,7 +10,7 @@ const Pchange = () => {
           Gymhen an unknown printer took a gallery of type grambled it to make a type 
           specimen book. it has survived not only five centuries.
         </p>
-        <button style={AppStyle.mainButton}>
+        <button>
           READ MORE
         </button>
       </div>

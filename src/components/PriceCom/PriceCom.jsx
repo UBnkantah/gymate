@@ -1,5 +1,4 @@
 import Primg from "../Images/cla-ft.png"
-import { AppStyle } from "../../App.style"
 import { pricingData } from "../Data/Data"
 import "./PriceCom.css"
 
@@ -33,7 +32,7 @@ const PriceCom = () => {
                                 <li>Personal Trainer</li>
                                 <li>Cycling</li>
                             </ul>
-                            <button style={AppStyle.mainButton}>
+                            <button>
                                 PURCHASE NOW
                             </button>
                         </div>
@@ -46,7 +45,7 @@ const PriceCom = () => {
     <div className="pric-bottom">
             <h2>FITNESS CLASSES THIS SUMMER</h2>
             <p>Get 35% Discount</p>
-            <button style={AppStyle.mainButton}>
+            <button>
                 CONTACT WITH US
             </button>
         </div>

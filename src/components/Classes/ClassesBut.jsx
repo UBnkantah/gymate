@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 
 const ClassesBut = () => {
   return (
-    <div>
-        <div>
+    <div className="but-container">
+        <div className="but-flex">
             <button>
                 <Link to="/class">1</Link>
             </button>

@@ -64,7 +64,7 @@ const Form = () => {
               placeholder="Email Address"
             />
 
-            <select name="classes" id="classes"
+            <select name="classes" className='select' id="classes"
             value={formData.classes}
             onChange={handleChange}
             >
@@ -87,8 +87,8 @@ const Form = () => {
               cols="30" 
               rows="10"></textarea>
             <div className='check'>
-              <input type="checkbox" name="subscribe"  id="subscribe" />
-              <label htmlFor="subscribe">Subscribe to Gymate Newsletter</label>
+              <input type="checkbox" className='checkbox' name="subscribe"  id="subscribe" />
+              <p className="subscribe">Subscribe to Gymate Newsletter</p>
             </div>
             
             <button type="submit" className='form-submit'>SUBMIT NOW</button>

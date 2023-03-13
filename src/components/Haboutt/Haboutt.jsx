@@ -1,13 +1,13 @@
 import aimg from "../Images/habott-img.jpg"
-import { HabouttStyle } from "./Haboutt.style"
+import "./Haboutt.css"
 
 const Haboutt = () => {
   return (
-    <div style={HabouttStyle.haboutt} >
-        <div style={HabouttStyle.habouttImg}>
-            <img src={aimg} style={HabouttStyle.img} alt="" />
+    <div className="haboutt">
+        <div className="habouttImg">
+            <img src={aimg} className="img" alt="" />
         </div>
-        <div>
+        <div className="item">
             <p>WHO WE ARE</p>
             <h2>We Will Give You Strength and Health</h2>
             <p>

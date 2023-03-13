@@ -1,8 +1,5 @@
 import React from 'react'
 import habimg from "../Images/about-imgg.png"
-import { AppStyle } from '../../App.style'
-import moa from "../Images/moa.png"
-import mob from "../Images/mob.png"
 import "./Habout.css"
 
 const Habout = () => {
@@ -11,12 +8,12 @@ const Habout = () => {
         <div className='img'>
             <img src={habimg} alt="" />
             <div className='motiv'>
-                <p>We can help you to overcome the fears and obstacles in your life</p>
+                <p className='help'>We can help you to overcome the fears and obstacles in your life</p>
             </div>
         </div>
         <div className='content'>
             <p>LET'S INTRODUCE</p>
-            <p style={AppStyle.h2}>
+            <p >
                 Take You Health And Fitness To New Level of Heights
             </p>
             <p>

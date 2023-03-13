@@ -1,7 +1,7 @@
 import React from 'react'
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {solid, regular, icon, brands, light} from "@fortawesome/fontawesome-svg-core/import.macro"
-import {faEnvelope, faMattressPillow, faToiletPaper, faCalendarDays, faToolbox } from "@fortawesome/free-solid-svg-icons"
+// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+// import {solid, regular, icon, brands, light} from "@fortawesome/fontawesome-svg-core/import.macro"
+// import {faEnvelope, faMattressPillow, faToiletPaper, faCalendarDays, faToolbox } from "@fortawesome/free-solid-svg-icons"
 import { routine } from '../Data/Data'
 import "./Why.css"
 

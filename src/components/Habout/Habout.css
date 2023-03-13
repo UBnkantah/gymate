@@ -6,6 +6,32 @@
     gap: 5em;
     margin-top: 250px;
 }
+.habout .img{
+    max-width: 400px;
+    position: relative;
+}
+.img .motiv{
+    background-color: white;
+    width: 180px;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 10px, 10px 10px black;
+}
+.motiv .help{
+    font-size: 16px;
+    font-weight: 520;
+}
+@keyframes hea {
+
+}
+.habout .img img{
+    width: 100%;
+}
 .content {
     max-width: 500px;
     /* display: flex;

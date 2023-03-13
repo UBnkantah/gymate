@@ -2,8 +2,8 @@ import {Link} from 'react-router-dom'
 
 const Gallbut = () => {
   return (
-    <div>
-        <div>
+    <div className='but-container'>
+        <div className='but-flex'>
             <button>
                 <Link to="/gallery">1</Link>
             </button>
