@@ -16,7 +16,7 @@ const Classes = () => {
                         </div>
                         <div className='clas-items'>
                             <div className="first-item">
-                                <h2>{sport.type}</h2>
+                                <h2 className="cla-header">{sport.type}</h2>
                                 <p className='subheading'>
                                     <span className='coach'>
                                         <AiOutlineUser />
@@ -35,7 +35,7 @@ const Classes = () => {
                                 </p>
                             </div>
                                 
-                                <button>
+                                <button className='class-butt'>
                                     <Link to="/contact">
                                         JOIN NOW
                                     </Link>

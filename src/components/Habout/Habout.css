@@ -4,7 +4,8 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 5em;
-    margin-top: 250px;
+    padding: 20px 0;
+   
 }
 .habout .img{
     max-width: 400px;
@@ -26,11 +27,9 @@
     font-size: 16px;
     font-weight: 520;
 }
-@keyframes hea {
-
-}
-.habout .img img{
+.habout .img .about-img{
     width: 100%;
+    border-radius: 20px;
 }
 .content {
     max-width: 500px;
@@ -39,7 +38,13 @@
 }
 .content div{
     display: flex;
+    flex-direction: column;
 
+}
+.lor-con{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
 }
 .content .mid{
     display: flex;
@@ -52,4 +57,10 @@
 }
 .mid ul{
     list-style: none;
+}
+.content .name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 22px;
+    line-height: 0;
 }

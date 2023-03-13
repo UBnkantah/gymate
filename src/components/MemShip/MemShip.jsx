@@ -7,14 +7,15 @@ import "./MemShip.css"
 const MemShip = () => {
   return (
     <div className="memship-container">
-        <div>
+        <div className="mem-title">
             <h3>PRICING CHART</h3>
             <h2>Exclusive Membership Plan</h2>
             <p>Gymen an unknown printer took a gallery of type and scrambled make a type secimen book</p>
         </div>
-        {plans.map((sub) => {
-            return (
-                <div className="cont-sub">
+        <div className="cont-sub">
+            {plans.map((sub) => {
+                return (
+
                     <div className="memship-cont" key={sub.id}>
                         <div className="mem-bck">
                             <img src={sub.img} alt="" />
@@ -49,10 +50,10 @@ const MemShip = () => {
                             </button>
                         </div>
                     </div>
-                </div>
-            )
-        })}
-        
+                
+                )
+            })}
+        </div>
     </div>
   )
 }

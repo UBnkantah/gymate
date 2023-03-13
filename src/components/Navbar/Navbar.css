@@ -7,7 +7,7 @@
     padding: 10px 20px;
     z-index: 1;
     transform: 1s;
-    backdrop-filter: blur(4px);
+    background-color: black;
 }
 
 .log img{

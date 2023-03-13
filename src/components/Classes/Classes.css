@@ -29,11 +29,11 @@
     width: 100%;
     height: 100%;
 }
-img{
+/* img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 .under{
     position: absolute;
     top: 100%;
@@ -51,11 +51,11 @@ img{
     transition: 0.5s ease-in-out;
     padding-bottom: 4em;
 }
-h2{
+.cla-header{
     position: relative;
     padding-bottom: 1.8em;
 }
-h2::before{
+.cla-header::before{
     content: "";
     position: absolute;
     bottom: 25px;
@@ -82,7 +82,7 @@ h2::before{
 .subheading, .under{
     color: #ffffffad;
 }
-button{
+.class-butt{
     position: relative;
     border: none;
     padding: 0.5em 1.5em;
@@ -101,7 +101,7 @@ button{
     z-index: -1;
     transition: all .4s
 }
-button:hover .border-behind{
+.class-butt:hover .border-behind{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -111,16 +111,16 @@ button:hover .border-behind{
     z-index: -1;
     transition: 0.3s all;
 }
-button:hover, button:hover button a{
+.class-butt:hover, .class-butt:hover .class-butt a{
     background-color: #ff051a;
     color: #fff;
 }
-button a{
+.class-butt a{
     text-decoration: none;
     color: #ff051a;
 }
-button a:hover{
-    color: white;
+.class-butt a:hover{
+    color: w;
 }
 
 /* .bi{

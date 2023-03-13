@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     gap: 2em;
-    background-color: #e4f1f6;
+    background-image: url("../Images/clas-bgImg.png");
     padding: 50px 0px;
 
 }
@@ -21,9 +21,9 @@
 .upcom .class-ses{
     width: 300px;
     height: 400px;
-    background-color: white;
     position: relative;
     border-radius: 10px;
+    background-color: white;
 }
 .upcom-header{
     max-width: 500px;
@@ -64,4 +64,5 @@
     position: absolute;
     top: 90px;
     left: 100px;
+    z-index: 1;
 }

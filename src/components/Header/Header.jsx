@@ -1,10 +1,9 @@
 import {Link} from "react-router-dom"
-// import HImg from "../Images/header-img.jpg"
+import HImg from "../Images/hero-img-mob.png"
 import "./Header.css"
 
 const Header = () => {
   return (
-    <>
         <div className='header'>
             <div className='contents '>
                 <p>FIND YOUR ENERGY</p>
@@ -18,20 +17,10 @@ const Header = () => {
                     </Link>
                 </button>
             </div>
-            <div className="bmi-container">
-                <div>
-                    <h4>CALCULATE BODY</h4>
-                    <h2>Calculate Your BMI?</h2>
-                </div>
-                <div>
-                    
-                </div>
+            <div className="contents">
+                <img src={HImg} alt="" />
             </div>
         </div>
-        
-        
-        
-    </>
   )
 }
 

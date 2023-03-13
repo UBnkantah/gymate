@@ -1,3 +1,12 @@
+.coaches-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2rem 0;
+}
+
 .coach-con{
     display: flex;
     justify-content: center;
@@ -8,6 +17,7 @@
 }
 .coach-header{
     max-width: 450px;
+    text-align: center;
 }
 .coach-img{
     width: 280px;
