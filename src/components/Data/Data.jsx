@@ -222,17 +222,20 @@ export const pricingData = [
     {
         id: 1,
         unit: 39,
-        stage: "Beginner"
+        stage: "Beginner",
+        img: require("../Images/blog-crossfit.jpg")
     },
     {
         id: 2,
         unit: 59,
-        stage: "Basic"
+        stage: "Basic",
+        img: require("../Images/abo-mis.jpg")
     },
     {
         id: 3,
         unit: 69,
-        stage: "Advance"
+        stage: "Advance",
+        img: require("../Images/class-crosfit.png")
     }
 ]
 

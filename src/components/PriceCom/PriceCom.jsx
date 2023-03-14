@@ -16,7 +16,7 @@ const PriceCom = () => {
                 return(
                     <div className="pri-unit" key={pay.id}>
                         <div className="pri-img">
-                            <img src={Primg} alt="" />
+                            <img src={pay.img} alt="" />
                             <div className="top-content">
                                 <h3>{pay.stage}</h3>
                             </div>
@@ -32,7 +32,7 @@ const PriceCom = () => {
                                 <li>Personal Trainer</li>
                                 <li>Cycling</li>
                             </ul>
-                            <button>
+                            <button className='class-butt'>
                                 PURCHASE NOW
                             </button>
                         </div>

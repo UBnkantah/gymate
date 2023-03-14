@@ -44,7 +44,7 @@ const MemShip = () => {
                                 <GiCheckMark />
                                 Cycling
                             </p>
-                            <button>
+                            <button className='class-butt'>
                                 PURCHASE NOW 
                                 <FaLongArrowAltRight />
                             </button>

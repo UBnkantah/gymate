@@ -25,7 +25,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 700px;
+    /* height: 700px; */
+    box-shadow: 0px 0px 3px red;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    /* filter: drop-shadow(0px 0px 3px black); */
+    
 }
 .pri-unit .pri-img{
     width: 300px;
@@ -35,6 +40,9 @@
 .pri-unit .pri-img img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 .pri-content{
     display: flex;
