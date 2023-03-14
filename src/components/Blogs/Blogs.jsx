@@ -8,7 +8,7 @@ const Blogs = () => {
         {blogg.map((blog) => {
             return (
                 <div className="blog-flex" key={blog.id}>
-                    <button>
+                    <button className="time-bl">
                         21.03.22
                     </button>
                     <h2>
@@ -18,7 +18,7 @@ const Blogs = () => {
                         Authoritatively disseminate multimedia based total linkage 
                         through market-driven methodolContinually transform
                     </p>
-                    <button>
+                    <button className='class-bu'>
                         <Link to="/">
                             READ MORE
                         </Link>

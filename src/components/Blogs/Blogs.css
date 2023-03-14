@@ -20,3 +20,25 @@
     box-shadow: rgba(5px, 10px, 20px, black, inset);
     border-radius: 30px;
 }
+.class-bu{
+    padding: 4px 10px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+.class-bu a {
+    text-decoration: none;
+    color: white;
+}
+.time-bl{
+    background: transparent;
+    border: 1px solid black;
+    padding: 3px 8px;
+    border-radius: 15px;
+}
+.class-bu:hover{
+    background-color: white;
+}
+.class-bu a:hover{
+    color: red;
+}

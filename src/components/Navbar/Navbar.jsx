@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to="/pricing">Pricing</Link>
             <button className="get_btn">
                 <Link to="/contact">
-                    Sign Up
+                    START NOW
                 </Link>
             </button>
             <button className="navbar_btn navbar_close" onClick={showNav}>

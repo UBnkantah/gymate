@@ -10,7 +10,7 @@ const Pchange = () => {
           Gymhen an unknown printer took a gallery of type grambled it to make a type 
           specimen book. it has survived not only five centuries.
         </p>
-        <button>
+        <button className='class-butt'>
           READ MORE
         </button>
       </div>
