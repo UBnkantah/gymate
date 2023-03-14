@@ -5,7 +5,7 @@ const Haboutt = () => {
   return (
     <div className="haboutt">
         <div className="habouttImg">
-            <img src={aimg} className="img" alt="" />
+            <img src={aimg} className="habb" alt="" />
         </div>
         <div className="item">
             <p>WHO WE ARE</p>

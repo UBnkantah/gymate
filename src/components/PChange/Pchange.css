@@ -8,6 +8,7 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    gap: 1em;
 }
 
 .pchange-header{
@@ -21,4 +22,9 @@
 
 .pchange .video-cont img{
     width: 100%;
+}
+@media screen and (max-width: 767px){
+    .pchange{
+        padding: 20px;
+    }
 }

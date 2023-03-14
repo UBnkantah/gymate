@@ -2,7 +2,6 @@
 import React from 'react'
 import "./Upcom.css"
 import  {OFC} from "../Data/Data"
-import { Link } from 'react-router-dom'
 
 const Upcom = () => {
   return (

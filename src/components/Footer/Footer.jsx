@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='footer-flex'>
-            <h2>
+            <h2 className='cla-header'>
                 Our Classes
             </h2>
             <p>Fitness Classes</p>
@@ -40,7 +40,7 @@ const Footer = () => {
             <p>Full-Body Strength</p>
         </div>
         <div className='footer-flex'>
-            <h2>
+            <h2 className='cla-header'>
                 Quick Links
             </h2>
             <p>Fitness Classes</p>
@@ -50,7 +50,7 @@ const Footer = () => {
             <p>Full-Body Strength</p>
         </div>
         <div className='footer-flex'>
-            <h2>
+            <h2 className='cla-header'>
                 Gymat Location
             </h2>
             <p>

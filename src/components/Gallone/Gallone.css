@@ -1,5 +1,5 @@
 .gal-mai-container{
-    padding: 50px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +40,26 @@
     align-items: center;
     flex-direction: column;
 }
-.gal-link{
+.but-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.but-container .but-flex{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.but-flex .but-contai a{
+    text-decoration: none;
+    color: white;
+}
+.but-container .but-flex .but-contai{
+    padding: 3px 10px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
 
 }

@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    padding: 50px;
+    padding: 20px;
     color: white;
 }
 .classes-container{
@@ -85,9 +85,9 @@
 .class-butt{
     position: relative;
     border: none;
-    padding: 0.5em 1.5em;
+    padding: 0.3em 0.9em;
     margin-top: 1em;
-    font-size: 1.2em;
+    font-size: 1em;
     background-color: #fff;
     cursor: pointer;
 }
@@ -120,7 +120,7 @@
     color: #ff051a;
 }
 .class-butt a:hover{
-    color: w;
+    color: white;
 }
 
 /* .bi{

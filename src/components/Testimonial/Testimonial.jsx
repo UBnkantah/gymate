@@ -15,14 +15,6 @@ const Testimonial = () => {
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi minima ab non dolore, quidem necessitatibus iusto eos? Pariatur dolor sit architecto! Architecto quia hic nostrum numquam soluta obcaecati quis beatae.
                 </p>
             </div>
-            <div>
-                <button>
-                    <FaLongArrowAltLeft />
-                </button>
-                <button>
-                    <FaLongArrowAltRight />
-                </button>
-            </div>
         </div>
     </div>
   )

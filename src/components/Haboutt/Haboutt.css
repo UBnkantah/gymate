@@ -1,18 +1,18 @@
 .haboutt{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 50px;
-        flex-wrap: wrap;
-        gap: 5em;
-        /* text-align: startTransition; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    gap: 5em;
+    /* text-align: startTransition; */
 
     }
 .habouttImg{
-        max-width: 450px;
-        height: 400px;
+    width: 350px;
+    height: 300px;
 }
-.img{
+.habouttImg .habb{
     width: 100%;
     height: 100%;
     border-radius: 50px;
