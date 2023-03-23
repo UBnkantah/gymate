@@ -5,7 +5,7 @@ import "./Himi.css"
 
 const HiMi = () => {
   return (
-    <div className="mainContainer">
+    <div className="mainContainer ">
         <div className="himi-container">
             <div className="himgcon">
                 <img src={aboImg} alt="" className="abimg"/>
@@ -17,7 +17,7 @@ const HiMi = () => {
                 </p>
             </div>
         </div>
-        <div className="secontainer">
+        <div className="secontainer ">
             <div className="himgcon">
                 <h2>Our Mission</h2>
                 <p>

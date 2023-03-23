@@ -3,7 +3,7 @@ import "./Haboutt.css"
 
 const Haboutt = () => {
   return (
-    <div className="haboutt">
+    <div className="haboutt container">
         <div className="habouttImg">
             <img src={aimg} className="habb" alt="" />
         </div>

@@ -18,22 +18,22 @@ const Navbar = () => {
         </div>
         
         <nav ref={NavRef}>
-            <Link to="/about">About</Link>
-            <Link to="/class">Class</Link>
-            <Link to="/gallery">Gallery</Link>
-            <Link to="/contact">Contact</Link>
-            <Link to="/pricing">Pricing</Link>
-            <button className="get_btn">
+            <Link to="/about" onClick={showNav}>About</Link>
+            <Link to="/class" onClick={showNav}>Class</Link>
+            <Link to="/gallery" onClick={showNav}>Gallery</Link>
+            <Link to="/contact" onClick={showNav}>Contact</Link>
+            <Link to="/pricing" onClick={showNav}>Pricing</Link>
+            <button className="get_btn" onClick={showNav}>
                 <Link to="/contact">
                     START NOW
                 </Link>
             </button>
             <button className="navbar_btn navbar_close" onClick={showNav}>
-                <FaTimes className="navicon" />
+                <FaTimes className="navicon" size={23} />
             </button>
         </nav>
         <button className="navbar_btn" onClick={showNav}>
-            <FaBars className="navicon"/>
+            <FaBars className="navicon" size={23}/>
         </button>
     </div>
     

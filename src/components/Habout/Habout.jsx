@@ -15,7 +15,7 @@ const Habout = () => {
                 className='help'>We can help you to overcome the fears and obstacles in your life</p>
             </div>
         </div>
-        <div className='content'>
+        <div className='content container'>
             <p>LET'S INTRODUCE</p>
             <h2>
                 Take You Health And Fitness To New Level of Heights
