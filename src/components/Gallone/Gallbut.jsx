@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import "./Gallone.css"
+import "../../App.css"
 
 const Gallbut = () => {
   return (

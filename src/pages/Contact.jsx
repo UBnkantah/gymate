@@ -1,5 +1,5 @@
 import HeaderCo from "../components/HeaderA/HeaderCo"
-import Footer from "../components/Footer/Footer"
+import Footer from "../components/Footer"
 import Pcontact from "../components/Pcontact/Pcontact"
 
 const Contact = () => {

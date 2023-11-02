@@ -2,7 +2,7 @@ import {AiOutlineUser, AiOutlineClockCircle} from 'react-icons/ai'
 import { ClasOne } from '../Data/Data' 
 import ClassesBut from './ClassesBut'
 import {Link} from "react-router-dom"
-import "./Classes.css"
+import "../../App.css"
 
 const Classes = () => {
   return (

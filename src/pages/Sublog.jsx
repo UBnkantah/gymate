@@ -1,6 +1,6 @@
 import {useParams} from "react-router-dom"
 import {blog} from "../components/Data/Data"
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/Footer";
 import { HabouttStyle } from "../components/HeaderA/HeaderA.style";
 import HPImg from "../components/Images/about-img.jpg"
 // import 

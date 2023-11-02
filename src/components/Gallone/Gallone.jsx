@@ -1,6 +1,6 @@
 import Gallbut from "./Gallbut"
 import {gallOne} from "../Data/Data"
-import "./Gallone.css"
+import "../../App.css"
 
 const Gallone = () => {
   return (

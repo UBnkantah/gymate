@@ -1,6 +1,6 @@
-import "./Blogs.css"
+import "../App.css"
 import { Link } from "react-router-dom"
-import { blogg } from "../Data/Data"
+import { blogg } from "./Data/Data"
 
 const Blogs = () => {
   return (

@@ -1,6 +1,6 @@
 import ClassesTwo from "../components/Classes/ClassesTwo"
 import HeaderC from "../components/HeaderA/HeaderC"
-import Footer from "../components/Footer/Footer"
+import Footer from "../components/Footer"
 
 const ClassTwo = () => {
   return (

@@ -1,16 +1,8 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Contact from './pages/Contact'
-import Class from './pages/Class'
-import ClassTwo from './pages/ClassTwo'
-import Gallery from "./pages/Gallery"
-import GalleryTwo from './pages/GalleryTwo'
-import Join from './pages/Join'
-import Sublog from './pages/Sublog'
-import Pricing from './pages/Pricing'
-import Error from './pages/Error'
-import SharedLayout from './pages/SharedLayout'
+import {Home, About, Class, ClassTwo, Contact, SharedLayout, Sublog, Gallery, GalleryTwo, Pricing, Join, Error} from "./pages"
+import {ToastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 
 const App = () => {
   return (
@@ -30,6 +22,7 @@ const App = () => {
           <Route path='*' element={<Error />} />
         </Route>
       </Routes>
+      <ToastContainer />
     </BrowserRouter>
   )
 }

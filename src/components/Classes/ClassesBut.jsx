@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import "../../App.css"
 const ClassesBut = () => {
   return (
     <div className="but-container">

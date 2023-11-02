@@ -1,4 +1,3 @@
-import React from 'react'
 import habimg from "../Images/about-imgg.png"
 import "./Habout.css"
 

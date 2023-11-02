@@ -1,7 +1,6 @@
-import React from 'react'
-import gymlogo from "../Images/gym-logo.png"
+import gymlogo from "./Images/gym-logo.png"
 import {FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaInstagram, FaPhoneAlt} from "react-icons/fa"
-import "./Footer.css"
+import "../App.css"
 
 const Footer = () => {
   return (

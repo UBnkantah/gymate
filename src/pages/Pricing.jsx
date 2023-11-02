@@ -1,5 +1,5 @@
 import HeaderPr from "../components/HeaderA/HeaderPr"
-import Footer from "../components/Footer/Footer"
+import Footer from "../components/Footer"
 import PriceCom from "../components/PriceCom/PriceCom"
 
 const Pricing = () => {

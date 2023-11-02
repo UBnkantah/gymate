@@ -1,7 +1,5 @@
-import React from 'react'
-import CaoImg from "../Images/about-img.jpg"
-import {coachesEx} from "../Data/Data"
-import "./Coaches.css"
+import {coachesEx} from "./Data/Data"
+import "../App.css"
 
 const Coaches = () => {
   return (

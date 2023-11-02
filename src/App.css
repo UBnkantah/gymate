@@ -35,6 +35,437 @@ p{
 .container{
         padding: 60px;
 }
+.blog-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        background-color: rgb(243, 233, 233);
+        gap: 2em;
+
+}
+
+.blog-flex {
+        max-width: 300px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        background-color: white;
+        padding: 20px;
+        box-shadow: rgba(5px, 10px, 20px, black, inset);
+        border-radius: 30px;
+}
+
+.class-bu {
+        padding: 4px 10px;
+        background-color: red;
+        border: 1px solid red;
+        border-radius: 15px;
+}
+
+.class-bu a {
+        text-decoration: none;
+        color: white;
+}
+
+.time-bl {
+        background: transparent;
+        border: 1px solid black;
+        padding: 3px 8px;
+        border-radius: 15px;
+}
+
+.class-bu:hover {
+        background-color: white;
+}
+
+.class-bu a:hover {
+        color: red;
+}
+/* Class Section */
+.main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 20px;
+        color: white;
+}
+
+.classes-container {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        overflow: hidden;
+        color: white;
+
+}
+
+.classes-container::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(#ffffff28, black);
+        z-index: 1;
+}
+
+.img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+}
+
+/* img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+.under {
+        position: absolute;
+        top: 100%;
+        padding: 2.5em 0;
+        padding-right: 2em;
+        cursor: pointer;
+        transition: all .4s;
+}
+
+.classes-container:hover .under {
+        display: block;
+        transition: 0.5s ease-out;
+        top: 39%;
+}
+
+.classes-container:hover .first-item {
+        transition: 0.5s ease-in-out;
+        padding-bottom: 4em;
+}
+
+.cla-header {
+        position: relative;
+        padding-bottom: 1.8em;
+}
+
+.cla-header::before {
+        content: "";
+        position: absolute;
+        bottom: 25px;
+        width: 2em;
+        height: 3px;
+        background-color: #ff051a;
+}
+
+.subheading {
+        padding-top: 2em;
+        display: inline;
+}
+
+.subheading .coach {
+        margin-right: 20px;
+}
+
+.clas-items {
+        position: absolute;
+        bottom: 2em;
+        padding: 2em 2em 0 2em;
+        width: 100%;
+        cursor: pointer;
+        z-index: 2;
+        overflow: hidden;
+}
+
+.subheading,
+.under {
+        color: #ffffffad;
+}
+
+.class-butt {
+        position: relative;
+        border: none;
+        padding: 0.3em 0.9em;
+        margin-top: 1em;
+        font-size: 1em;
+        background-color: #fff;
+        cursor: pointer;
+}
+
+.border-behind {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 10px;
+        bottom: 10px;
+        border: 1px solid #fff;
+        z-index: -1;
+        transition: all .4s
+}
+
+.class-butt:hover .border-behind {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        bottom: 0px;
+        border: 1px solid #fff;
+        z-index: -1;
+        transition: 0.3s all;
+}
+
+.class-butt:hover,
+.class-butt:hover .class-butt a {
+        background-color: #ff051a;
+        color: #fff;
+}
+
+.class-butt a {
+        text-decoration: none;
+        color: #ff051a;
+}
+
+.class-butt a:hover {
+        color: white;
+}
+
+/* Coaches */
+
+.coaches-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1em;
+        padding: 2rem 0;
+}
+
+.coach-con {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2em;
+
+}
+
+.coach-header {
+        max-width: 450px;
+        text-align: center;
+}
+
+.coach-img {
+        width: 280px;
+        height: 450px;
+        position: relative;
+}
+
+.coach-img img {
+        width: 100%;
+        height: 100%;
+}
+
+.coach-img .coach-tit {
+        width: 230px;
+        height: 100px;
+        background-color: white;
+        /* padding: 0px; */
+        position: absolute;
+        bottom: 30px;
+        right: 0;
+        padding-left: 20px;
+}
+/* Footer */
+.footer {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 2em;
+        background-color: black;
+        color: white;
+}
+
+.footer .footer-flex {
+        width: 230px;
+}
+
+.footer .footer-flex img {
+        width: 50px;
+        height: 50px;
+}
+
+.footer div .soc-icons {
+        display: flex;
+        gap: 1em;
+}
+
+.footer-flex .soc-icons div {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        /* background-color: aliceblue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+}
+
+.footer-flex h2 {
+        font-size: 800;
+        font-size: larger;
+}
+
+.footer-flex ul {
+        list-style: none;
+}
+
+/* Contact Form */
+.form-container {
+        background-color: #f8f8f8;
+        max-width: 400px;
+        width: 100%;
+        padding: 30px;
+        margin: 20px 0;
+}
+
+.form-container form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+}
+
+.form-container input {
+        width: 96%;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        /* padding: 0.2rem; */
+}
+
+.form-container .select {
+        width: 102%;
+        background-color: white;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        cursor: pointer;
+}
+
+.form-container textarea {
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+}
+
+.form-container .check {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 0.5rem;
+        align-items: center;
+        /* justify-content: flex-start; */
+}
+
+.check .checkbox {
+        width: 15px;
+        height: 15px;
+}
+
+.form-container .form-submit {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+}
+
+/* Gallery */
+.gal-mai-container {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        flex-wrap: wrap;
+}
+
+.mai-container {
+        position: relative;
+        width: 300px;
+        height: 350px;
+}
+
+.gal-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+}
+
+.mai-container .overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #ff0336;
+        opacity: 0;
+        transition: .5s ease;
+        border-radius: 50px;
+        cursor: pointer;
+}
+
+.mai-container:hover .overlay {
+        opacity: 0.5;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+.but-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+}
+
+.but-container .but-flex {
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.but-flex .but-contai a {
+        text-decoration: none;
+        color: white;
+}
+
+.but-container .but-flex .but-contai {
+        padding: 3px 10px;
+        background-color: red;
+        border: 1px solid red;
+        border-radius: 10px;
+
+}
+
+@media screen and (max-width: 767px) {
+        .footer {
+                padding: 20px 10px;
+        }
+}
 @media screen and (max-width: 767px) {
         .container {
                 padding: 30px;

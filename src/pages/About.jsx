@@ -1,4 +1,4 @@
-import Footer from "../components/Footer/Footer"
+import Footer from "../components/Footer"
 import HeaderA from "../components/HeaderA/HeaderA"
 import Haboutt from "../components/Haboutt/Haboutt"
 import HiMi from "../components/HiMi/HiMi"
