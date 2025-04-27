@@ -5,6 +5,7 @@ import {ToastContainer} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect, useState } from 'react';
 
+// ref: https://radiustheme.com/demo/wordpress/themes/gymat/home-4/
 
 const App = () => {
   const [visible, setVisible] = useState(false);
