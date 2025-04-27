@@ -1,8 +1,7 @@
 import {GiCheckMark} from "react-icons/gi"
-import {FaLongArrowAltRight} from "react-icons/fa"
-import abtg from "../Images/abo-mis.jpg"
 import { plans } from "../Data/Data"
 import "./MemShip.css"
+import { AniButton } from "../../ui"
 
 const MemShip = () => {
   return (
@@ -12,11 +11,11 @@ const MemShip = () => {
             <h2>Exclusive Membership Plan</h2>
             <p>Gymen an unknown printer took a gallery of type and scrambled make a type secimen book</p>
         </div>
-        <div className="cont-sub">
+        <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-4 md:gap-8 py-12">
             {plans.map((sub) => {
                 return (
 
-                    <div className="memship-cont" key={sub.id}>
+                    <div className="flex flex-col justify-center items-center relative text-white rounded-lg" key={sub.id}>
                         <div className="mem-bck">
                             <img src={sub.img} alt="" />
                         </div>
@@ -44,10 +43,7 @@ const MemShip = () => {
                                 <GiCheckMark />
                                 Cycling
                             </p>
-                            <button className='class-butt'>
-                                PURCHASE NOW 
-                                <FaLongArrowAltRight />
-                            </button>
+                            <AniButton />
                         </div>
                     </div>
                 

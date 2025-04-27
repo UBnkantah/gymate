@@ -1,11 +1,11 @@
-import HeaderCo from "../components/HeaderA/HeaderCo"
 import Footer from "../components/Footer"
 import Pcontact from "../components/Pcontact/Pcontact"
+import { Headers } from "../ui"
 
 const Contact = () => {
   return (
     <div>
-      <HeaderCo />
+      <Headers title='Contact'/>
       <Pcontact />
       <Footer />
     </div>

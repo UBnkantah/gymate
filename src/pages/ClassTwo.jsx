@@ -1,11 +1,11 @@
 import ClassesTwo from "../components/Classes/ClassesTwo"
-import HeaderC from "../components/HeaderA/HeaderC"
 import Footer from "../components/Footer"
+import { Headers } from "../ui"
 
 const ClassTwo = () => {
   return (
     <div>
-        <HeaderC />
+        <Headers title="Class" />
         <ClassesTwo />
         <Footer />
     </div>

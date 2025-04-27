@@ -1,11 +1,11 @@
-import HeaderS from "../components/HeaderA/HeaderS"
 import Footer from "../components/Footer"
 import Gallone from "../components/Gallone/Gallone"
+import { Headers } from "../ui"
 
 const Gallery = () => {
   return (
     <div>
-      <HeaderS />
+      <Headers title="Gallery" />
       <Gallone />
       <Footer />
     </div>

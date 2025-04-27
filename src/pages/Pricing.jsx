@@ -1,11 +1,11 @@
-import HeaderPr from "../components/HeaderA/HeaderPr"
 import Footer from "../components/Footer"
 import PriceCom from "../components/PriceCom/PriceCom"
+import { Headers } from "../ui"
 
 const Pricing = () => {
   return (
     <div>
-        <HeaderPr />
+        <Headers title="Pricing"/>
         <PriceCom />
         <Footer />
     </div>

@@ -1,41 +1,15 @@
-import { AiOutlineClockCircle, AiOutlineUser } from 'react-icons/ai'
-import { Link } from 'react-router-dom'
 import ClassesBut from "./ClassesBut"
 import { ClasTwo } from '../Data/Data'
 import "./Classes.css"
+import { ClassCard } from '../../ui'
 
 const ClassTwo = () => {
   return (
     <>
-      <div className='main-container'>
-        {ClasTwo.map((sport) => {
-          return(
-            <div className="classes-container" key={sport.id}>
-              <img src={sport.img} alt="" className="img-cl" />
-              <div className="clas-items">
-                <h2>{sport.type}</h2>
-                <p>
-                  <span>
-                    <AiOutlineUser />
-                    {sport.name}
-                  </span>
-                  <span>
-                    <AiOutlineClockCircle />
-                    {sport.time}
-                  </span>
-                </p>
-                <p>
-                The Best Body Fitness in Town Authoritatively disseminate
-                </p>
-                <button>
-                  <Link to="/contact">
-                    JOIN NOW
-                  </Link>
-                </button>
-              </div>
-            </div>
-          )
-        })}
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 justify-center items-center'>
+        {ClasTwo.map((sport) => (
+          <ClassCard key={sport.id} time={sport.time} type={sport.type} name={sport.name} img={sport.img}/>
+        ))}
       </div>
       <ClassesBut />
     </>

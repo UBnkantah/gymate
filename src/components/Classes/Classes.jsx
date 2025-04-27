@@ -1,53 +1,21 @@
-import {AiOutlineUser, AiOutlineClockCircle} from 'react-icons/ai'
 import { ClasOne } from '../Data/Data' 
 import ClassesBut from './ClassesBut'
-import {Link} from "react-router-dom"
 import "../../App.css"
+import { ClassCard } from '../../ui'
 
 const Classes = () => {
   return (
     <>
-        <div className='main-container'> 
-            {ClasOne.map((sport) => {
-                return(
-                    <div className='classes-container' key={sport.id}>
-                        <div className="img">
-                            <img src={sport.img} className="img-cl" alt="" />
-                        </div>
-                        <div className='clas-items'>
-                            <div className="first-item">
-                                <h2 className="cla-header">{sport.type}</h2>
-                                <p className='subheading'>
-                                    <span className='coach'>
-                                        <AiOutlineUser />
-                                        {sport.name} 
-                                    </span>
-                                    <span className='coach'>
-                                        <AiOutlineClockCircle />
-                                        {sport.time}
-                                    </span>
-                                        
-                                </p>
-                            </div>
-                            <div className='second-item'>
-                                <p className='under'>
-                                    The Best Body Fitness in Town Authoritatively disseminate
-                                </p>
-                            </div>
-                                
-                                <button className='class-butt'>
-                                    <Link to="/contact">
-                                        JOIN NOW
-                                    </Link>
-                                    <span className="border-behind"></span>
-                                </button>
-                        </div>   
-                    </div>
-                )
-            })}
+    <div className="container">
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 justify-center items-center py-8'> 
+            {ClasOne.map((sport) => (
+                <ClassCard key={sport.id} img={sport.img} name={sport.name} time={sport.time} type={sport.type}/>
+            ))}
             
         </div>
         <ClassesBut />
+    </div>
+        
     </>
     
   )

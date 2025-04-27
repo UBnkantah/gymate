@@ -1,34 +1,21 @@
-import "../App.css"
-import { Link } from "react-router-dom"
 import { blogg } from "./Data/Data"
+import { BlogCard } from "../ui"
 
 const Blogs = () => {
   return (
-    <div className="blog-container">
-        {blogg.map((blog) => {
-            return (
-                <div className="blog-flex" key={blog.id}>
-                    <button className="time-bl">
-                        21.03.22
-                    </button>
-                    <h2>
-                        {blog.top}
-                    </h2>
-                    <p>
-                        Authoritatively disseminate multimedia based total linkage 
-                        through market-driven methodolContinually transform
-                    </p>
-                    <button className='class-bu'>
-                        <Link to="/">
-                            READ MORE
-                        </Link>
-                        
-                    </button>
-                </div>
+    <>
+    <div className="container">
+     <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-4 md:gap-8 mx-0 md:mx-12 py-12">
+        {blogg.map((blog) =>  (
+                <BlogCard key={blog.id} top={blog.top}/>
             )
-        })}
+        )}
         
+    </div>   
     </div>
+    </>
+    
+    
   )
 }
 

@@ -1,7 +1,6 @@
 import {useParams} from "react-router-dom"
 import {blog} from "../components/Data/Data"
 import Footer from "../components/Footer";
-import { HabouttStyle } from "../components/HeaderA/HeaderA.style";
 import HPImg from "../components/Images/about-img.jpg"
 // import 
 
@@ -13,12 +12,12 @@ const Sublog = () => {
 
   return (
     <>
-      <div style={HabouttStyle.haboutt}>
+      <div >
         <div>
           <h2>{but}</h2>
         </div>
-        <div style={HabouttStyle.habouttImg}>
-          <img src={HPImg} alt="" style={HabouttStyle.img} />
+        <div >
+          <img src={HPImg} alt="" />
         </div>
       </div>
       <div style={{marginBottom: "100px"}}>

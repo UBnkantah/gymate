@@ -1,5 +1,5 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import { faShoePrints, faMattressPillow, faToiletPaper, faCalendarDays, faToolbox, faDumbbell, faPersonDress, faChildReaching, faThumbsUp, faTimesCircle } from "@fortawesome/free-solid-svg-icons"
+import { FaCalendarDay, FaDumbbell, FaTimesCircle, FaToolbox } from "react-icons/fa"
+
 
 export const ClasOne = [
     {
@@ -245,42 +245,42 @@ export const OFC = [
         head: "Fitness",
         date: "Monday: 9:00 am",
         img: require("../Images/cla-ft.png"),
-        icon: <FontAwesomeIcon icon={faPersonDress} size={"2x"} color={"white"} />
+        // icon: <FontAwesomeIcon icon={faPersonDress} size={"2x"} color={"white"} />
     },
     {
         id: 2,
         head: "Yoga",
         date: "Tuesday: 11:00 am",
         img: require("../Images/cla-yog.png"),
-        icon: <FontAwesomeIcon icon={faMattressPillow} size={"2x"} color={"white"} />
+        // icon: <FontAwesomeIcon icon={faMattressPillow} size={"2x"} color={"white"} />
     },
     {
         id: 3,
         head: "Body Building",
         date: "Monday: 10:00 am",
         img: require("../Images/class-bbg.png"),
-        icon: <FontAwesomeIcon icon={faChildReaching} size={"2x"} color={"white"} />
+        // icon: <FontAwesomeIcon icon={faChildReaching} size={"2x"} color={"white"} />
     },
     {
         id: 4,
         head: "Boxing",
         date: "Thursday: 1:00pm",
         img: require("../Images/class-boxg.png"),
-        icon: <FontAwesomeIcon icon={faThumbsUp} size={"2x"} color={"white"} />
+        // icon: <FontAwesomeIcon icon={faThumbsUp} size={"2x"} color={"white"} />
     },
     {
         id: 5,
         head: "Running",
         date: "Monday: 4:00 pm",
         img: require("../Images/class-run.png"),
-        icon: <FontAwesomeIcon icon={faShoePrints} size={"2x"} color={"white"} />
+        // icon: <FontAwesomeIcon icon={faShoePrints} size={"2x"} color={"white"} />
     },
     {
         id: 6,
         head: "Crossfit",
         date: "Tuesday: 6:00pm",
         img: require("../Images/class-crosfit.png"),
-        icon: <FontAwesomeIcon icon={faDumbbell} size={"2x"} color={"white"} />
+        // icon: <FontAwesomeIcon icon={faDumbbell} size={"2x"} color={"white"} />
     }
 ]
 
@@ -288,22 +288,26 @@ export const routine = [
     {
         id: 1,
         name: "PROGRESSION",
-        ics: <FontAwesomeIcon icon={faTimesCircle} />
+        ics: <FaTimesCircle size={30} />
+        // ics: <FontAwesomeIcon icon={faTimesCircle} />
     },
     {
         id: 2,
         name: "WORKOUT",
-        ics: <FontAwesomeIcon icon={faDumbbell} />
+        ics: <FaDumbbell size={30} />
+        // ics: <FontAwesomeIcon icon={faDumbbell} />
     },
     {
         id: 3,
         name: "NUTRITION",
-        ics: <FontAwesomeIcon icon={faToolbox} />
+        ics: <FaToolbox size={30} />
+        // ics: <FontAwesomeIcon icon={faToolbox} />
     },
     {
         id: 4,
         name: "DAILY CHART",
-        ics: <FontAwesomeIcon icon={faCalendarDays} />
+        ics: <FaCalendarDay size={30} />
+        // ics: <FontAwesomeIcon icon={faCalendarDays} />
     }
 ]
 
