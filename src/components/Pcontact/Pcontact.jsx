@@ -1,6 +1,3 @@
-// import Form from "../Form"
-// import ConDetail from "../ConDetail/ConDetail"
-import "./Pcontact.css"
 import {FaFacebookF, FaTwitter, FaInstagram, FaPinterest} from "react-icons/fa"
 import { useState } from "react"
 import { db } from "../../firebase"
@@ -41,7 +38,7 @@ const Pcontact = () => {
       <div className="grid grid-cols-1 py-12 md:grid-cols-2 gap-4 md:gap-8 justify-start items-center">
       <div>
         <div className="flex flex-col gap-2 items-start">
-                    <h5 className="text-2xl md:text-4xl font-[700]">
+                    <h5 className="text-xl md:text-4xl font-[700]">
                         We Are Here For Help you! To Shape Your Body
                     </h5>
                     <p>
@@ -50,25 +47,25 @@ const Pcontact = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-start items-start py-2">
                     <div className="w-full">
-                        <h3 className="text-xl font-[600]">New York City, USA</h3>
+                        <h3 className="text-lg font-[600]">New York City, USA</h3>
                         <hr className="w-1/3 bg-primary h-1"/>
                         <p>85 Briston Mint Street</p>
                         <p>London, E1 8LG, USA</p>
                     </div>
                     <div className="w-full">
-                        <h3 className="text-xl font-[600]">Opening Hours</h3>
+                        <h3 className="text-lg font-[600]">Opening Hours</h3>
                         <hr className="w-1/3 bg-primary h-1"/>
                         <p>Mon to Fri 7:30am - 1:00am</p>
                         <p>Mon to Fri 7:30am - 1:00am</p>
                     </div>
                     <div className="w-full">
-                        <h3>Information</h3>
+                        <h3 className="text-lg font-[600]">Information</h3>
                         <hr className="w-1/3 bg-primary h-1"/>
                         <p>+800-123-4567</p>
                         <p>gymat@yourname.com</p>
                     </div>
                     <div className="w-full">
-                        <h3>Follow Us On</h3>
+                        <h3 className="text-lg font-[600]">Follow Us On</h3>
                         <hr className="w-1/3 bg-primary h-1"/>
                         <div className="flex flex-row gap-4 items-center pt-4">
                             <Link to={'https://www.facebook.com/'} target="_blank" className="transition ease-in-out hover:bg-[#ff0336] duration-[1s] rounded-full p-1.5 cursor-pointer shadow bg-neutral-200">
@@ -90,7 +87,7 @@ const Pcontact = () => {
                 
       </div>
         <div className='w-full'>
-        <form onSubmit={handleSubmit} className='flex flex-col gap-2 w-full items-center justify-center'>
+        <form onSubmit={handleSubmit} className='flex flex-col gap-2 w-full items-start justify-center'>
           <h2 className="text-start">Leave Us your Info</h2>
             <input 
               type="text" 
@@ -128,10 +125,10 @@ const Pcontact = () => {
               className='w-full h-[300px] border border-black rounded'></textarea>
             <div className='flex flex-row items-center w-full justify-start gap-2'>
               <input type="checkbox"  name="subscribe"  id="subscribe" />
-              <p>Subscribe to Gymate Newsletter</p>
+              <p className="text-sm font-[500]">Subscribe to Gymate Newsletter</p>
             </div>
             
-            <button type="submit" className='bg-primary w-full py-2 md:py-4 font-[600] rounded text-white cursor-pointer border-none'>{loading ? "Submitting...": "SUBMIT NOW"}</button>
+            <button type="submit" className='bg-primary w-full py-2 md:py-3 font-[600] rounded text-white cursor-pointer border-none'>{loading ? "Submitting...": "SUBMIT NOW"}</button>
         </form>
     </div> 
     </div>

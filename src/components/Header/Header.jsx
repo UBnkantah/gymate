@@ -18,11 +18,6 @@ const Header = () => {
                     Gymen an unknown printer took a gallery of type and scrambled. it has survived unknown printercenturies.
                 </p>
                 <AniButton />
-                {/* <button className='class-butt'>
-                    <Link to="/class">
-                        OUR CLASSES
-                    </Link>
-                </button> */}
             </div>
             <div className="">
                 <img src={HImg} alt="" className="block md:hidden" />

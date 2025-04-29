@@ -6,17 +6,17 @@ import { AniButton } from "../../ui"
 const MemShip = () => {
   return (
     <div className="memship-container">
-        <div className="mem-title">
+        <div className="flex flex-col gap-1 w-full md:w-1/2">
             <h3>PRICING CHART</h3>
             <h2>Exclusive Membership Plan</h2>
             <p>Gymen an unknown printer took a gallery of type and scrambled make a type secimen book</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-4 md:gap-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-4 md:gap-8 py-12 mx-0 md:mx-12">
             {plans.map((sub) => {
                 return (
 
                     <div className="flex flex-col justify-center items-center relative text-white rounded-lg" key={sub.id}>
-                        <div className="mem-bck">
+                        <div className="mem-bck w-full h-full before:absolute rounded-lg before:content-none">
                             <img src={sub.img} alt="" />
                         </div>
                         <div className="mem-card">

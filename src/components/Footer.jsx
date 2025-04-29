@@ -7,13 +7,13 @@ const Footer = () => {
   return (
     <div className="bg-black text-white">
         <div className="container">
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-start items-start gap-4 md:gap-8 py-12'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-start items-start gap-4 md:gap-8 pb-8 pt-4'>
         <div className='w-full'>
             <Link to={'/'}>
             <img src={gymlogo} alt="" className="w-24 md:w-36 h-20"/>
             </Link>
             
-            <p>
+            <p className="text-md">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi iusto corrupti illum tempore veniam saepe maiores, inventore rerum incidunt cupiditate id asperiores alias voluptatibus tenetur repellat? Culpa, ducimus fuga.
             </p>
             <div className='flex flex-row gap-4 items-center pt-4'>
@@ -34,40 +34,43 @@ const Footer = () => {
                 </Link>
             </div>
         </div>
-        <div className='w-full'>
-            <h5>
+        <div className='w-full pt-0 md:pt-4'>
+            <h5 className="text-2xl pb-2">
                 Our Classes
             </h5>
-            <p>Fitness Classes</p>
-            <p>Aerobics Classes</p>
-            <p>Power Yoga</p>
+            <ul className="">
+                <li>Fitness Classes</li>
+                <li>Aerobics Classes</li>
+                <li>Power Yoga</li>
+            </ul>
+            <p></p>
+            <p></p>
+            <p></p>
             <p>Lean Machines</p>
             <p>Full-Body Strength</p>
         </div>
-        <div className='w-full'>
-            <h5 className="text-2xl">
+        <div className='w-full pt-0 md:pt-4'>
+            <h5 className="text-2xl pb-2">
                 Quick Links
             </h5>
-            <p>Fitness Classes</p>
-            <p>Aerobics Classes</p>
-            <p>Power Yoga</p>
-            <p>Lean Machines</p>
-            <p>Full-Body Strength</p>
+            <ul>
+                <li>Fitness Classes</li>
+                <li>Aerobics Classes</li>
+                <li>Power Yoga</li>
+                <li>Lean Machines</li>
+                <li>Full-Body Strength</li>
+            </ul>
         </div>
-        <div className='w-full'>
-            <h5>
+        <div className='w-full pt-0 md:pt-4'>
+            <h5 className="text-2xl pb-2">
                 Gymat Location
             </h5>
-            <p>
-                178 West 27th Street, Suite 527, New Your NY 10012 United States
-            </p>
-            <p className="flex flex-row items-center gap-2">
-                <FaPhoneAlt />
-                +1-234-5678901
-            </p>
-            <p>
-                gymat@yourname.com
-            </p>
+            <ul className="flex flex-col gap-1">
+                <li>178 West 27th Street, Suite 527, New Your NY 10012 United States</li>
+                <li className="flex flex-row items-center gap-2"><FaPhoneAlt />
+                +1-234-5678901</li>
+                <li>gymat@yourname.com</li>
+            </ul>
         </div>
     </div>        
         </div>

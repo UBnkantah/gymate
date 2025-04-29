@@ -36,10 +36,6 @@
     width: 100%;
     height: 270px;
 }
-.title-cla{
-    text-align: center;
-    height: 110px;
-}
 .cla-time{
     position: absolute;
     width: 80%;
@@ -52,17 +48,4 @@
     font-weight: 700;
     bottom: 0.05px;
     left: 25px;
-}
-.title-cla .spo-icon{
-    width: 75px;
-    height: 75px;
-    border-radius: 75px;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 90px;
-    left: 100px;
-    z-index: 1;
 }

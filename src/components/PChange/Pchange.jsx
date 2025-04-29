@@ -26,7 +26,7 @@ const Pchange = () => {
           <div className="container">
 <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 justify-center items-center mx-0 md:mx-12'>
       <div className="flex flex-col gap-4 items=center">
-        <h5 className="text-2xl md:text-5xl font-[700]">Gyms Don't Change Lives. People Do.</h5>
+        <h5 className="text-2xl md:text-4xl font-[700]">Gyms Don't Change Lives. People Do.</h5>
         <p>
           Gymhen an unknown printer took a gallery of type grambled it to make a type 
           specimen book. it has survived not only five centuries.

@@ -61,7 +61,7 @@ const Upcom = () => {
                     <div className='title-cla'>
                         <h2>{body.head}</h2>
                         <p>The Best Body fitness in Town</p>
-                        <div className="spo-icon">
+                        <div className="p-2 bg-primary w-fit rounded-full mx-auto">
                             <FaBars />
                             {/* {body.icon} */}
                         </div>
